@@ -1,0 +1,8 @@
+{
+  "name": "ABSKA — 214",
+  "description": "ABSKA — التحوّل الشامل في 214 يومًا. تطبيق ويب تقدمي (PWA) متكامل لإعادة تشكيل العادات واللياقة والمعرفة والانضباط وإدارة الوقت ذاتيًا.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

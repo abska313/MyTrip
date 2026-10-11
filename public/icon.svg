@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#3B0A18" />
+      <stop offset="60%" stop-color="#151316" />
+      <stop offset="100%" stop-color="#0B0B0D" />
+    </radialGradient>
+    <linearGradient id="maroonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#922D48" />
+      <stop offset="50%" stop-color="#6D1028" />
+      <stop offset="100%" stop-color="#3B0A18" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="104" fill="url(#bgGrad)" />
+  <rect x="16" y="16" width="480" height="480" rx="90" fill="none" stroke="#30262B" stroke-width="4" />
+  
+  <!-- Outer Ring with 214 tick -->
+  <circle cx="256" cy="230" r="140" fill="none" stroke="#30262B" stroke-width="12" />
+  <circle cx="256" cy="230" r="140" fill="none" stroke="url(#maroonGrad)" stroke-width="12" stroke-dasharray="660 880" stroke-linecap="round" transform="rotate(-90 256 230)" />
+  
+  <!-- Emblem Center -->
+  <path d="M256 130 L320 250 L285 250 L256 195 L227 250 L192 250 Z" fill="url(#maroonGrad)" />
+  <path d="M210 265 L302 265 L290 288 L222 288 Z" fill="#F4F0F1" />
+  <circle cx="256" cy="230" r="18" fill="#F4F0F1" />
+  
+  <!-- Text Brand -->
+  <text x="256" y="405" font-family="'Cairo', sans-serif" font-weight="900" font-size="44" fill="#F4F0F1" text-anchor="middle" letter-spacing="4">ABSKA</text>
+  <text x="256" y="445" font-family="'Tajawal', sans-serif" font-weight="700" font-size="22" fill="#922D48" text-anchor="middle" letter-spacing="3">214 • التحوّل الشامل</text>
+</svg>
